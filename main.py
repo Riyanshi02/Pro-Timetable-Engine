@@ -7,7 +7,7 @@ import io
 # ==========================================
 # 📅 PAGE CONFIG & THEME
 # ==========================================
-st.set_page_config(page_title="Schedulify Pro", page_icon="📅", layout="wide")
+st.set_page_config(page_title="Schedulify - Smart Timetable Generator ", page_icon="📅", layout="wide")
 
 DATA_DIR = Path("data")
 DATA_DIR.mkdir(exist_ok=True)
@@ -590,7 +590,7 @@ st.sidebar.success("✅ Excel Export Ready")
 if page == "Dashboard":
     st.markdown("""
     <div class="main-card" style="text-align:center;">
-        <div class="hero-badge">🎓 College-Wide Timetable System</div>
+        <div class="hero-badge">🎓 D.A.V. Institute of Engineering & Technology - CSE Department</div>
         <div class="hero-title">SCHEDULIFY</div>
         <p class="hero-subtitle">Your Brain for Better Scheduling</p>
         <p style="font-size:1.1rem; color:#4b5563; max-width:700px; margin:0 auto;">
